@@ -4,7 +4,7 @@ let del="ank";
 function save(){
     if(document.getElementById("inbox").value=="")
     {
-        alert("fill")
+        alert("Enter Your Task")
     }
     else
     {
