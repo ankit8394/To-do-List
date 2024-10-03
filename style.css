@@ -41,7 +41,6 @@ color: #fff;
 p{
     text-transform: capitalize;
     padding-top: 10px;
-    overflow-wrap: break-word;
     word-break: break-all;
     width: 350px;
     display: flex;
@@ -60,4 +59,3 @@ p{
 #show button{
     all: unset;
 }
-
