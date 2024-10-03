@@ -24,8 +24,8 @@ function req(qw) {
 }
 
 function markDone(index) {
-    let taskText = document.getElementById(`task-text-${index}`);
-    let checkbox = document.getElementById(`checkbox${index}`);
+    let taskText = document.getElementById("task-text-" + index);
+    let checkbox = document.getElementById("checkbox" + index);
     if (checkbox.checked) {
         taskText.style.textDecoration = "line-through"; // Mark task as done
     } else {
